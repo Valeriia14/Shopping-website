@@ -1,0 +1,1 @@
+require("./umzug").migrator.runAsCLI();

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "strict": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "@kidztime/*": [
+        "./core/*"
+      ],
+      "@ktwebsite/*": [
+        "./views/*"
+      ]
+    },
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "ssr.config.js",
+    "logs",
+    ".gen"
+  ],
+  "include": [
+    "server"
+  ]
+}

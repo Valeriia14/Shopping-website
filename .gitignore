@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+
+#deployment
+dist/
+/logs
+.gen
+.ngploy
+.ssr
+
+# misc
+.DS_Store
+
+/.history
+
+production.toml
+local.toml
+staging.toml
+test.toml
+
+/scripts
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+static/.media/*
+
+.DS_Store
+*.mwb.bak
+
+# vs code
+.vscode
+
+# webstorm
+.idea
+dist/
+/config/local.new.toml
+/config/local.old.toml

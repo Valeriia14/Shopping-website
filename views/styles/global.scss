@@ -1,0 +1,610 @@
+@import "slick.scss";
+@import "slick-theme.scss";
+
+@font-face {
+  font-family: "Barlow-Regular";
+  font-weight: 400;
+  src: url(/fonts/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: "Barlow-Light";
+  font-weight: 300;
+  src: url(/fonts/Barlow-Light.ttf);
+}
+@font-face {
+  font-family: "Barlow-Regular";
+  font-weight: 400;
+  src: url(/fonts/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: "Barlow-Medium";
+  font-weight: 500;
+  src: url(/fonts/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  font-weight: 700;
+  src: url(/fonts/Barlow-Bold.ttf);
+}
+@font-face {
+  font-family: "Barlow-Black";
+  font-weight: 900;
+  src: url(/fonts/Barlow-Black.ttf);
+}
+@font-face {
+  font-family: "Cormorant-SemiBold";
+  font-weight: 600;
+  src: url(/fonts/Cormorant-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Barlow-ExtraBold";
+  font-weight: 900;
+  src: url(/fonts/Barlow-ExtraBold.ttf);
+}
+body,
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff !important;
+}
+.vertical-slider .slick-slide.slick-active.slick-current {
+  border: 3px solid #a29dc1;
+}
+.vertical-slider .slick-slide.slick-active {
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.165647);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: auto !important;
+}
+.slick-slider.mainSlider.slick-initialized {
+  @media only screen and (min-width: 568px) {
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.165647);
+    border-radius: 40px;
+  }
+  .slick-dots li button:before {
+    content: ".";
+    font-weight: 700;
+    background-color: #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    @media only screen and (min-width: 568px) {
+      width: 20px;
+      height: 20px;
+      font-family: "slick";
+      font-size: 6px;
+      line-height: 20px;
+      background-color: transparent;
+      text-align: center;
+      color: black;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+
+//=========== Explore More Products ==========//
+
+.slick_explore_more_dots {
+  * {
+    outline: none;
+  }
+  .slick-dots li button:before {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #979797;
+    height: 11px;
+    width: 12px;
+    @media only screen and (min-width: 568px) {
+      display: none;
+      width: 20px;
+      bottom: -45px;
+      height: 20px;
+      font-family: "slick";
+      font-size: 26px;
+      line-height: 20px;
+      background-color: transparent;
+      text-align: center;
+      color: black;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: #2d2866 !important;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    top: calc(50% - 35px);
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+
+  .slick-prev {
+    left: -25px;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: 574px;
+    @media only screen and (max-width: 1280px) {
+      right: 10px;
+    }
+
+    &::before {
+      content: none;
+    }
+  }
+}
+
+//============== IMAGES Slider =============//
+.character-slider {
+  position: relative;
+  .slick-track {
+    padding: 32px 0px;
+  }
+  * {
+    outline: none;
+  }
+
+  .slick-list {
+    overflow: visible;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 48px;
+    width: 48px;
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+    &::before {
+      display: none;
+    }
+  }
+}
+
+//=========== Product Image Slider ===========//
+
+.slick_product_image_slider {
+  position: relative;
+
+  .slick-slide div {
+    outline: none;
+    padding: 0 8px;
+  }
+
+  .slick-dots {
+    bottom: -40px;
+  }
+  .slick-dots li button:before {
+    content: ".";
+    display: block;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #979797;
+    height: 11px;
+    width: 12px;
+    @media only screen and (min-width: 568px) {
+      text-align: left;
+      margin-left: 50px;
+      width: 12px;
+      height: 12px;
+      font-family: "slick";
+      background-color: transparent;
+      text-align: center;
+      color: black;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: #2d2866 !important;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+
+  .slick-prev {
+    left: -20px;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: 528px;
+    @media only screen and (max-width: 1280px) {
+      right: -20px;
+    }
+    &::before {
+      content: none;
+    }
+  }
+}
+
+//============ Review Slider =============//
+.slick_review_slider_dots {
+  .slick-dots {
+    display: none;
+  }
+  .slick-dots li button:before {
+    content: ".";
+    display: none;
+  }
+
+  * {
+    outline: none;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+  .slick-prev {
+    left: 0px;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: 0px;
+    &::before {
+      content: none;
+    }
+  }
+}
+
+.MuiSelect-select {
+  padding-right: 0px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.MuiSelect-icon {
+  margin-right: 20px;
+}
+
+//=========  Featured Slider  ==============//
+.slick_featured_slider {
+  position: relative;
+  width: 97% !important;
+
+  .slick-slide div {
+    outline: none;
+    flex: 1;
+  }
+
+  .slick-dots {
+    bottom: -25px;
+    right: 46px;
+  }
+  .slick-dots li button:before {
+    content: ".";
+    display: block;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid black;
+    height: 11px;
+    width: 12px;
+    @media only screen and (min-width: 568px) {
+      text-align: left;
+      margin-left: 50px;
+      width: 12px;
+      height: 12px;
+      font-family: "slick";
+      background-color: transparent;
+      text-align: center;
+      color: black;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: #2d2866 !important;
+    opacity: 1;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+
+  .slick-prev {
+    left: -26px;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: -26px;
+    box-shadow: -4px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    @media only screen and (max-width: 1280px) {
+      right: -26px;
+    }
+    &::before {
+      content: none;
+    }
+  }
+}
+
+//=========  3 tile carousel  ==============//
+.three_tile_carousel {
+  @keyframes darkenAnimation {
+    100% {
+      filter: brightness(30%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes textBubbleUp {
+    from {
+      top: 35%;
+    }
+    to {
+      top: 20%;
+      font-size: 25px;
+    }
+  }
+
+  @keyframes buttonFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  * {
+    outline: none;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .slick-current + .slick-slide img {
+      animation: darkenAnimation ease 0.5s;
+      animation-fill-mode: forwards;
+    }
+    .slick-current + .slick-slide div[class*="detailContainer"] {
+      animation: textBubbleUp ease 0.5s;
+      animation-fill-mode: forwards;
+    }
+    .slick-current + .slick-slide a {
+      animation: buttonFadeIn ease 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .slick-current img {
+      animation: darkenAnimation ease 0.5s;
+      animation-fill-mode: forwards;
+    }
+    .slick-current div[class*="detailContainer"] {
+      animation: textBubbleUp ease 0.5s;
+      animation-fill-mode: forwards;
+    }
+    .slick-current a {
+      animation: buttonFadeIn ease 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .slick-prev {
+    left: 31%;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: 31%;
+    &::before {
+      content: none;
+    }
+  }
+}
+
+//=========  4 tile carousel  ==============//
+.four_tile_carousel {
+  * {
+    outline: none;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px -5px rgba(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 568px) {
+      display: none !important;
+    }
+  }
+
+  .slick-prev {
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    &::before {
+      content: none;
+    }
+  }
+}
+
+//=========  Banner carousel  ==============//
+
+.banner_carousel {
+  .slick-dots li button:before {
+    content: "";
+    border-radius: 100%;
+    border: 1px solid black;
+    height: 12px;
+    width: 12px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: #2d2866 !important;
+    opacity: 1;
+  }
+}
+.MuiList-padding {
+  padding-top: "0px!important";
+  padding-bottom: "0px!important";
+}
+
+//=========  attachment carousel  ==============//
+////////////////////// attachment carousel //
+
+.slick_attachment_slider {
+  position: relative;
+  width: 97% !important;
+
+  .slick-slide div {
+    outline: none;
+    flex: 1;
+    width: 100%;
+  }
+
+  .slick-dots {
+    bottom: 0px;
+  }
+  .slick-dots li button:before {
+    content: ".";
+    display: block;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid black;
+    height: 11px;
+    width: 12px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: #2d2866 !important;
+    opacity: 1;
+  }
+
+  .slick-arrow {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2d2866;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100px;
+    height: 47px;
+    width: 47px;
+    box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .slick-prev {
+    left: 5px;
+    &::before {
+      content: none;
+    }
+  }
+
+  .slick-next {
+    right: 5px;
+    box-shadow: -4px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    &::before {
+      content: none;
+    }
+  }
+}

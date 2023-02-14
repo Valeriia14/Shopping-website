@@ -1,0 +1,220 @@
+[[products]]
+  [products.product_data]
+    name          = "Despicable Me Colouring Pad"
+    alt_name      = "Product Despicable Me Colouring Pad"
+    sku           = "DM-DS04228A"
+    upc           = "8888943010919"
+    material      = "plastic"
+    stock         = "1000"
+    status        = "published"
+    price         = 9.9
+    description   = "Colouring Pad #1"
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+  [[products.inventories]]
+    name          = "lazada"
+    count         = 100
+
+  [[products.categories]]
+    type          = "character"
+    name          = "Despicable Me"
+  [[products.categories]]
+    type          = "category"
+    name          = "Colouring Pad"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Stationery"
+
+[[products]]
+  [products.product_data]
+    name          = "We Bare Bears Colouring Pad"
+    alt_name      = "Product We Bare Bears Colouring Pad"
+    sku           = "WB-HS08227A"
+    upc           = "8888943010858"
+    material      = "plastic"
+    stock         = "1000"
+    status        = "published"
+    price         = 9.9
+    description   = "Colouring Pad #2"
+
+  [[products.categories]]
+    type          = "character"
+    name          = "We Bare Bears"
+  [[products.categories]]
+    type          = "category"
+    name          = "Colouring Pad"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Stationery"
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+
+[[products]]
+  [products.product_data]
+    name          = "Avengers Colouring Pad"
+    alt_name      = "Product Avengers Colouring Pad"
+    sku           = "AV-FS06224A"
+    upc           = "8888943010872"
+    material      = "plastic"
+    stock         = "1000"
+    status        = "published"
+    price         = 9.9
+    description   = "Colouring Pad #3"
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+
+  [[products.categories]]
+    type          = "character"
+    name          = "Avengers"
+  [[products.categories]]
+    type          = "category"
+    name          = "Colouring Pad"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Stationery"
+
+[[products]]
+  [products.product_data]
+    name          = "Disney Winnie the Pooh Face Towel"
+    alt_name      = "Product Disney Winnie the Pooh Face Towel"
+    sku           = "MAR-2275026600"
+    upc           = ""
+    material      = "fabric"
+    stock         = "1000"
+    status        = "published"
+    price         = 12.9
+    description   = "Face Towel #1"
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+
+  [[products.categories]]
+    type          = "category"
+    name          = "Face Towel"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Houseware"
+
+[[products]]
+  [products.product_data]
+    name          = "Spiderman 3 Fold Wallet"
+    alt_name      = "Product Spiderman 3 Fold Wallet"
+    sku           = "AS-ASP00506"
+    upc           = "8888943004635"
+    material      = "plastic"
+    stock         = "1000"
+    status        = "published"
+    price         = 9.9
+    description   = "Dimensions & Material: 11.5 cm x 8 cm x 1.5 cm, Polyester. Features:  1) Light weight polyester material with water resistant inner coating. 2) Comes with elastic spring clip. 3) Transparent PVC quick access card slot at the back of wallet."
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+
+  [[products.categories]]
+    type          = "category"
+    name          = "Face Towel"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Houseware"
+
+
+[[products]]
+  [products.product_data]
+    name          = "16 inch Backpack Paw Patrol"
+    alt_name      = "Product 16 inch Backpack Paw Patrol"
+    sku           = "PP-BB02107A"
+    upc           = "8888943008923"
+    material      = "polyester"
+    stock         = "1000"
+    status        = "published"
+    price         = 34.9
+    description   = "It’s always better when you have a superpup from Paw Patrol covering your back. Days out are ever so much fun!"
+
+
+  [[products.inventories]]
+    name          = "kidztime"
+    count         = 100
+
+  [[products.categories]]
+    type          = "character"
+    name          = "Avengers"
+  [[products.categories]]
+    type          = "category"
+    name          = "Colouring Pad"
+  [[products.categories]]
+    type          = "product_type"
+    name          = "Stationery"
+
+# [[products]]
+#   name          = "Spiderman 3 Fold Wallet"
+#   alt_name      = "Product Spiderman 3 Fold Wallet"
+#   sku           = "AS-ASP00506"
+#   upc           = "8888943004635"
+#   material      = "plastic"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 9.9
+#   description   = "Dimensions & Material: 11.5 cm x 8 cm x 1.5 cm, Polyester. Features:  1) Light weight polyester material with water resistant inner coating. 2) Comes with elastic spring clip. 3) Transparent PVC quick access card slot at the back of wallet."
+
+# [[products]]
+#   name          = "Disney Frozen II Face Towel"
+#   alt_name      = "Product Disney Frozen II Face Towel"
+#   sku           = "MAR-2015109000"
+#   upc           = ""
+#   material      = "fabric"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 12.9
+#   description   = "Face Towel #2"
+
+# [[products]]
+#   name          = "16 inch Backpack Paw Patrol"
+#   alt_name      = "Product 16 inch Backpack Paw Patrol"
+#   sku           = "PP-BB02107A"
+#   upc           = "8888943008923"
+#   material      = "polyester"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 34.9
+#   description   = "It’s always better when you have a superpup from Paw Patrol covering your back. Days out are ever so much fun!"
+
+# [[products]]
+#   name          = "Tuition Tote Bag Paw Patrol"
+#   alt_name      = "Product Tuition Tote Bag Paw Patrol"
+#   sku           = "PP-BB02104A"
+#   upc           = "8888943008954"
+#   material      = "polyester"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 25.9
+#   description   = "It’s always better when you have a superpup from Paw Patrol covering your back. Days out are ever so much fun!"
+
+# [[products]]
+#   name          = "530ML Nozzle On Cap 10"
+#   alt_name      = "Product 530ML Nozzle On Cap 10"
+#   sku           = "Nozzle On"
+#   upc           = ""
+#   material      = "plastic"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 4.5
+#   description   = "Nozzle On #1"
+
+# [[products]]
+#   name          = "380ML/550ML Classic Sipper Cap 10"
+#   alt_name      = "Product 380ML/550ML Classic Sipper Cap 10"
+#   sku           = "Classic Sipper"
+#   upc           = ""
+#   material      = "plastic"
+#   stock         = "1000"
+#   status        = "published"
+#   price         = 4.1
+#   description   = "Classic Sipper #1"

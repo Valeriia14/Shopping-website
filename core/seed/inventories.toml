@@ -1,0 +1,11 @@
+[[inventories]]
+  name          = "kidztime"
+  description   = "Kidztime platform"
+
+[[inventories]]
+  name          = "shopee"
+  description   = "Shopee platform"
+
+[[inventories]]
+  name          = "lazada"
+  description   = "Lazada platform"

@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "env": { 
+    "browser": true,
+    "node": true
+  },
+  "rules": { 
+    "no-unused-vars": "warn",
+    "no-undef":"error",
+    "no-explicit-any": "off",
+    "no-case-declarations": "off",
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "@typescript-eslint/no-extra-semi": ["off"],
+    "@typescript-eslint/no-var-requires": 0,
+    "no-empty": 0,
+    "prefer-const": 0,
+    "@typescript-eslint/no-non-null-asserted-optional-chain": 0,
+    "no-useless-escape": 0,
+    "@typescript-eslint/no-namespace": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/ban-types": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/no-inferrable-types": 0
+  }
+}

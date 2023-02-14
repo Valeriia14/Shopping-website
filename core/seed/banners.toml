@@ -1,0 +1,24 @@
+[[banners]]
+  value           = "Bag to School"
+  order           = 1
+  category_list   = ["Tuition Bag", "16inch Backpack"]       
+
+[[banners]]
+  value           = "Dinnerwares"
+  order           = 2
+  category_list   = ["Face Towel"]
+
+[[banners]]
+  value           = "Water Bottles"
+  order           = 3
+  category_list   = ["Classic Sipper Cap", "Nozzle On Cap"]
+
+[[banners]]
+  value           = "School Accessories"
+  order           = 4
+  category_list   = ["Colouring Pad"]
+
+[[banners]]
+  value           = "Sales"
+  order           = 5
+  category_list   = ["Wallet"]

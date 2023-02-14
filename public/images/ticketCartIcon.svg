@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="32px" viewBox="0 0 45 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Front-Stage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_Cart-Copy-9" transform="translate(-934.000000, -785.000000)">
+            <g id="Group-6" transform="translate(416.000000, 747.000000)">
+                <g id="Group-4" transform="translate(0.000000, 30.000000)">
+                    <g id="Group-2" transform="translate(232.000000, 0.000000)">
+                        <g id="Group-5" transform="translate(308.260861, 24.500000) rotate(-15.000000) translate(-308.260861, -24.500000) translate(287.260861, 13.000000)">
+                            <path d="M4.86370331,1.03527618 L4.86370331,21.0352762 L38.8206936,21.0352762 C38.9783965,20.5499508 39.2477064,20.1155487 39.5977997,19.7627307 C39.948833,19.4089655 40.3810022,19.1371394 40.8637033,18.977687 L40.8637033,3.09286538 C40.3810022,2.93341293 39.948833,2.66158686 39.5977997,2.30782165 C39.2477064,1.95500361 38.9783965,1.52060158 38.8206936,1.03527618 L4.86370331,1.03527618 Z" id="Fill-4" stroke="#2D2866" stroke-width="2"></path>
+                            <line x1="2.20121912" y1="21.2332543" x2="2.01371912" y2="0.5420778" id="Stroke-10" stroke="#2D2866" stroke-dasharray="1,1"></line>
+                            <line x1="32.0248014" y1="21.9775258" x2="31.8373014" y2="1.28634932" id="Stroke-10" stroke="#2D2866" stroke-dasharray="1,1"></line>
+                            <text id="%" font-family="Helvetica" font-size="16" font-weight="normal" letter-spacing="0.120000005" fill="#2D2866">
+                                <tspan x="12.9046647" y="15.7241439">%</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

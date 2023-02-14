@@ -1,0 +1,95 @@
+[app]
+  port            = 8080
+  log_component   = "server"
+
+[paths]
+  website_url         = "https://kidztime.id"
+  login_url           = "http://localhost:8080/"
+  about_url           = "http://localhost:8080/"
+  contact_url         = "http://localhost:8080/"
+  verify_email_url    = "http://localhost:8080/api/v1/public/verify/email?token=:token"
+  pw_reset_url        = "http://localhost:8080/auth/reset-password?token=:token"
+  pw_reset_cms_url    = "http://localhost:8080/api/v1/public/password/reset?token=:token"
+
+[mailconfig]
+  port      = 465
+  user      = ""
+  pass      = ""
+  host      = ""
+  from      = ""
+
+[s3]
+  access_key_id=""
+  secret_access_key=""
+  bucket =""
+  cloud_front ="https://staging.kidztime.com/static-media/"
+
+[mediarepo]
+  type              = "local-static"
+  [mediarepo.options]
+    static_folder   = "./.gen/static"
+    temp_folder   = "./.gen/temp"
+    uri_prefix      = "http://localhost:8080/static-media"
+    auto_mkdir      = true
+
+[auth]
+  prv_key               = "somesecretivepassword"
+  token_issuer          = "ngnrs-auth"
+  access_expiry         = 36000   # 10 hours
+  refresh_expiry        = 864000  # 10 days
+  pw_request_expiry     = 3600   # 1 hour
+  verify_expiry         = 3600
+
+[[datasources]]
+  name                = "default-db"
+  access_type         = "password"
+  username            = "<DBUser>"
+  password            = "<DBPassword>"
+  schema              = "kidztime_v2"
+  [datasources.options]
+    host              = "<DBHost>"
+    timezone          = "+08:00"
+    dialect           = "mysql"
+    [datasources.options.dialectOptions]
+      decimalNumbers  = true
+
+[[datasources]]
+  name                = "b2b"
+  access_type         = "password"
+  username            = "<DBUser>"
+  password            = "<DBPassword>"
+  schema              = "zedcommerce-test"
+  [datasources.options]
+    host              = "<DBHost>"
+    timezone          = "+08:00"
+    dialect           = "mysql"
+    [datasources.options.dialectOptions]
+      decimalNumbers  = true
+
+[voucherify]
+  app_id               = "0616993f-e980-44bc-b315-7b4f1d011dc9"
+  secret               = "d24a2e0c-59ec-4178-9a00-2925beec65a0"
+  api_url              = "https://as1.api.voucherify.io"
+  api_endpoint         = "https://as1.api.voucherify.io"
+  loyalty_campaign_id  = "camp_CDw0Ith8NyUlEY7LbDQhiYrW"
+  loyalty_reward_id    = "rew_8hWT69zDQjeCyz0BVZjPdXQT"
+  
+[stripe]
+  secret_key      = "sk_test_nk7oAxEcy2zloGzgh5f5OwuA"
+  api_version     = "2020-08-27"
+
+[seed]
+  run     = true
+
+[[mailers]]
+provider            = "sendgrid"
+  [mailers.config]
+    api_key           = ""
+    name              = "SendGrid"
+  [mailers.config.templates]
+    resolve_exchange_request   = "d-495afb15a2254fa7bb13e82613a17773"
+    password_request     = "d-e36ca4781a2a45dfb5dbf905275210a3"
+  [mailers.config.send_configs.from]
+    name                = "Kidztime"
+    email               = "enquiry@kidztime.com"
+

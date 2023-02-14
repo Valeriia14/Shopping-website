@@ -1,0 +1,13 @@
+[[accounts]]
+  firstname      = "jane"
+  lastname       = "doe"
+  email_address  = "seed@ngnrs.io"
+  password         = "asdlkjasdlkj"
+  privileges     = ["kidztime.superadmin"]
+
+[[accounts]]
+  firstname      = "john"
+  lastname       = "doe"
+  email_address  = "account@ngnrs.io"
+  password         = "asdlkjasdlkj"
+  privileges     = []

@@ -1,0 +1,86 @@
+[[categories]]
+  type          = "product_type"
+  name          = "Bottles"
+  description   = "bottles"
+
+[[categories]]
+  type          = "product_type"
+  name          = "Stationery"
+  description   = "stationery"
+
+[[categories]]
+  type          = "product_type"
+  name          = "Houseware"
+  description   = "houseware"
+
+[[categories]]
+  type          = "product_type"
+  name          = "Backpack"
+  description   = "backpack"
+
+
+[[categories]]
+  type          = "character"
+  name          = "Despicable Me"
+  description   = "despicable me"
+
+[[categories]]
+  type          = "character"
+  name          = "We Bare Bears"
+  description   = "we bare bears"
+
+[[categories]]
+  type          = "character"
+  name          = "Avengers"
+  description   = "avengers"
+
+[[categories]]
+  type          = "character"
+  name          = "Spiderman"
+  description   = "Spiderman"
+
+[[categories]]
+  type          = "character"
+  name          = "Despicable Me"
+  description   = "despicable me"
+
+[[categories]]
+  type          = "character"
+  name          = "Paw Patrol"
+  description   = "paw patrol"
+
+
+[[categories]]
+  type          = "category"
+  name          = "Tuition Bag"
+  description   = "tuition bag"
+
+[[categories]]
+  type          = "category"
+  name          = "16inch Backpack"
+  description   = "16inch backpack"
+
+[[categories]]
+  type          = "category"
+  name          = "Classic Sipper Cap"
+  description   = "classic sipper cap"
+
+[[categories]]
+  type          = "category"
+  name          = "Nozzle On Cap"
+  description   = "nozzle on cap"
+
+[[categories]]
+  type          = "category"
+  name          = "Face Towel"
+  description   = "Face Towel"
+
+[[categories]]
+  type          = "category"
+  name          = "Wallet"
+  description   = "wallet"
+
+[[categories]]
+  type          = "category"
+  name          = "Colouring Pad"
+  description   = "colouring pad"
